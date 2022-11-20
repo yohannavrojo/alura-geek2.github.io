@@ -1,0 +1,137 @@
+ {     
+       
+    "informacionBanner": { 
+        "titulo":"Abril Promocional",
+        "subtitulo":"Productos seleccionados con 33% de descuento"
+        
+     },
+    
+  
+    
+     "productos":[
+        {
+            "titulo":"Producto Canecas ",
+            "descripcion":"Vaso de Star Wars ",
+            "precio":"20,00",
+            "img":"https://i.ibb.co/2tprbHK/canecasw.png"
+        },
+        {
+            
+            "titulo":"Producto Legos",
+            "descripcion":"Legos Star Wars ",
+            "precio":"200,00",
+            "img":"https://i.ibb.co/k8T45k9/legosw.png"
+        },
+        {
+            "titulo":"Producto Banner",
+            "descripcion":"Banner Yoda Star Wars ",
+            "precio":"100,00",
+            "img":"https://i.ibb.co/L003Y7Z/yoda.png"
+        },
+        {
+            "titulo":"Producto Munecos",
+            "descripcion":"Stormtropper",
+            "precio":"50,00",
+            "img":"https://i.ibb.co/9GdM2f3/stormtropper.png"
+        },
+        {
+            "titulo":"Producto Baby Yoda",
+            "descripcion":"Baby Yoda ",
+            "precio":"60,00",
+            "img":"https://i.ibb.co/G92JMqY/babyyoda.png"
+        },
+        {
+            "titulo":"Producto Mandalorian",
+            "descripcion":"Mandalorian ",
+            "precio":"10,00",
+            "img":"https://i.ibb.co/Z2mwFj4/mandalorian.png"
+        }
+        
+        
+        
+
+     ],
+     "consolas":[
+        {
+            "titulo":"Consolas Xbox",
+            "descripcion":"Xbox ",
+            "precio":"500,00",
+            "img":"https://i.ibb.co/ZSXWJp7/xbox.jpg"
+        },
+        {
+            
+            "titulo":"Consola PS5",
+            "descripcion":"PS5",
+            "precio":"200,00",
+            "img":"https://i.ibb.co/Xt5h6wn/ps5.png"
+        },
+        {
+            "titulo":"Consola Snes",
+            "descripcion":"Snes",
+            "precio":"200,00",
+            "img":"https://i.ibb.co/GQ5NQ8z/snes.png"
+        },
+        {
+            "titulo":"Consola  Switch",
+            "descripcion":"Switch",
+            "precio":"50,00",
+            "img":"https://i.ibb.co/C2xsTMV/switch.png"
+        },
+        {
+            "titulo":"Consola",
+            "descripcion":"Consola  ",
+            "precio":"20,00",
+            "img":"https://i.ibb.co/jy9BhZF/console.png"
+        },
+        {
+            "titulo":"Consola GBA",
+            "descripcion":"GBA ",
+            "precio":"300,00",
+            "img":"https://i.ibb.co/BtzhqpL/gba.png"
+        }
+     ],
+     "diversos":[
+        {
+            "titulo":"Diversos Atari ",
+            "descripcion":"Atari ",
+            "precio":"200,00",
+            "img":"https://i.ibb.co/ZG7sHcJ/atari.png"
+        },
+        {
+            
+            "titulo":"Diversos Camisetas",
+            "descripcion":"Camisetas",
+            "precio":"60,00",
+            "img":"https://i.ibb.co/0Brt9mn/camisasnes.png"
+        },
+        {
+            "titulo":"Diversos Sonic",
+            "descripcion":"Sonic",
+            "precio":"90,00",
+            "img":"https://i.ibb.co/pXf1CKs/sonic.png"
+        },
+        {
+            "titulo":"Diversos Reloj",
+            "descripcion":"Reloj",
+            "precio":"20,00",
+            "img":"https://i.ibb.co/6bGHgYv/relogio.png"
+        },
+        {
+            "titulo":"Diversos VR",
+            "descripcion":"VR ",
+            "precio":"120,00",
+            "img":"https://i.ibb.co/8BxWm5q/vr.png"
+        },
+        {
+            "titulo":"Diversos Pikachu",
+            "descripcion":"Mandalorian ",
+            "precio":"100,00",
+            "img":"https://i.ibb.co/Thh6N1W/pikachu.png"
+        }
+        
+        
+     ]
+
+    
+     
+}

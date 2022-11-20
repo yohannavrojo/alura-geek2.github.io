@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+/*--------------------Variables--------------------*/
+:root {
+    --bg-color: #ebebeb;
+    --input-bg: #efefef;
+    --texto-destaque: #FFFF;
+    --texto2-destaque:rgb(0, 0, 0);
+    --azul-destaque: #2a7ae4;
+    --negro-destaque:#171819;
+    --bg-contacto: #Eaf2fd;
+  }
+
+/*--------------------Normalize--------------------*/
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+  
+}
+
+/*--------------------Patrón del proyecto--------------------*/
+textarea:focus, input:focus {
+    box-shadow:0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+input::placeholder, textarea::placeholder{
+    color: var(--input-placeholder);
+    padding: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--azul-destaque);
+    font-weight: 800;
+}
+
+button{
+    cursor: pointer;
+}
+
+/*--------------------Header General--------------------*/
+
+
+
+nav{
+  
+  display: flex;
+  align-items: center;
+  padding-left: 10rem;
+}
+
+/*--------------------Divs del Header--------------------*/
+
+.logo-busqueda {
+  
+  width: 617px;
+  display: flex;
+  align-items: center;
+}
+
+    .logo{
+      
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img{
+      height: 30px;
+      width: 40px;
+     
+    }
+
+    .logo p{
+      font-size: 26px;
+      font-weight: bold;
+      color: var(--azul-destaque);
+    }
+
+    .logo .logo-azul{
+      margin-left: 10px;
+      color: grey;
+    }
+
+    .logo-busqueda input{
+     margin-left: 10%;
+     width: 395px;
+     height: 40px;
+     border-radius: 30px;
+     padding: 1% 3%;
+     border: none;
+     background-color:#c0d3f1;
+     background-image: url(../assets/lupa.png);
+     background-repeat: no-repeat;
+     background-position: right;
+     background-position-x: 320px;
+    }
+    .logo-busqueda ::placeholder { color:grey; }
+
+    .login{
+      width: 600px;
+       display: flex;
+       justify-content: end;
+       
+    }
+
+    .login button{
+      width: 180px;
+      background: none;
+      border: 0px solid var(--negro-destaque);
+      border-radius: 24px;
+      color: #2a7ae4;
+      font-size: 20px;
+      
+    }
+
+    .login button:hover{
+
+       color: grey;
+      
+    }
+
+/*--------------------Banner Promocional--------------------*/
+
+.destaque{
+  height: 40rem;
+  background-image: url(../assets/halo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 32px;
+  background-color: rgba(0, 0, 0, 0.20);
+  background-blend-mode: darken;
+}
+
+    .banner{
+      padding-left: 463px;
+      padding-top: 6rem;
+  
+    }
+
+    .banner h1{
+       color: var(--texto-destaque);
+       font-size: 52px;
+       font-weight: bold;
+    }
+
+    .banner h4{
+      color: var(--texto-destaque);
+      font-size: 22px;
+      font-weight: bold; 
+    }
+
+    .banner button{
+      background-color: rgba(0, 0, 0, 0.573);
+      border: none;
+      color: white;
+      height: 51px;
+      width: 130px;
+      border-radius:25px;
+      margin: 8rem 2rem 2rem 11rem;
+    }
+
+/*--------------------Sección de productos--------------------*/
+
+.geral-prods{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+/*-----------------Divs en la Sección de Productos-------------*/
+
+
+
+    .prod-titulo{
+          
+         display: flex;
+         justify-content: space-between;
+         padding-left: 3rem;
+         padding-right: 5rem;
+         color: #Eaf2fd;
+    }
+
+    .prod-titulo .titulo{
+      font-size: 32px;
+      font-weight: bold;
+     
+    }
+
+    .dos{
+      color: rgb(0, 0, 0);
+    }
+    .mostrar-mas{
+      font-weight: bold;
+      margin-top: 25px;
+      
+    }
+
+    .seccion-productos{
+      height: 478px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 66px;
+      margin-top: 37px;
+      padding-left: 3rem;
+      padding-right: 5rem;
+    }
+   
+    .produto{
+     
+      font-weight: bold;
+    }
+   
+    .uno{
+      color: white;
+    }
+    .seccion-productos .produto img {
+      border-radius: 10% 10%;
+      box-shadow: 0px 0px 14px rgb(206 186 186 / 53%);
+      object-fit: contain;
+      height: 272px;
+      width: 91%;
+    }
+   
+    .seccion-productos .produto .descrição{
+      margin-top: 50px;
+
+    }
+
+    .prod-fondo-consola{
+      background-color: #000000;
+     
+    }
+
+
+/*--------------------Form Contacto--------------------*/
+
+.contacto{
+  background-image: url(../assets/assasins.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+    display: flex;
+    height: 365px;
+    justify-content: center;
+    padding: 75px 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-blend-mode: darken;
+   
+}
+
+    .referencia{
+        display: flex;
+        width: 350px;
+        margin: 20px 0 0 0;
+    }
+
+    .referencia img{
+        width: 60px;
+        height: 40px;
+    }
+
+    .referencia p{
+        font-size: 26px;
+        font-weight: bolder;
+        margin-top: 5px;
+        margin-left: 6px;
+    }
+
+    .links-utiles{
+      line-height: 40px;
+      width: 555px;
+      margin-right: 100px;
+     
+    }
+
+    .links-utiles a{
+        color: white;
+        font-weight: bold;
+
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 500px;
+    }
+    .form ::placeholder { color:grey; }
+
+    .form p{
+        font-weight: bolder;
+        color: white;
+    }
+
+    .form input{
+        width: 475px;
+        position: relative;
+        height: 56px;
+        border: transparent;
+        margin-bottom: 20px;
+        box-sizing: content-box;
+        padding: 0.5% 2.7%;
+        color: var(--azul-destaque);
+        border-radius: 27px;
+    }
+
+    .form input:hover{
+        border-bottom: solid 2px var(--azul-destaque);
+        transition: linear 1s;
+    }
+
+   
+    .label-nombre{
+        width: 100%;
+        position: absolute;
+        color: var(--input-placeholder);
+        top: 80px; left: 9px;
+        transition: 0.5s;                
+        }
+    
+        .input-nombre:focus + .label-nombre{
+        top: 64px;
+        font-size: 14px;
+        z-index: 2;
+        transition: 0.2s; 
+        color: var(--azul-destaque); 
+        }
+
+    .form textarea{
+        width: 100%;
+        font-family: 'Relaway', sans-serif;
+        border: transparent;
+        color: var(--azul-destaque);
+        margin-bottom: 20px;
+        border-radius: 27px;
+    }
+
+    .form button{
+      background-color:rgba(0, 0, 0, 0.553);
+        border: none;
+        color:white;
+        height: 51px;
+        width: 180px;
+        border-radius: 27px;
+    }

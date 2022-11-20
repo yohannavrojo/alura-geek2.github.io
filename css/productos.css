@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+/*--------------------Variables--------------------*/
+:root {
+    --bg-color: #ebebeb;
+    --input-bg: #efefef;
+    --texto-destaque: #FFFF;
+    --texto2-destaque:rgb(0, 0, 0);
+    --azul-destaque: #2a7ae4;
+    --negro-destaque:#171819;
+    --bg-contacto: #Eaf2fd;
+  }
+
+/*--------------------Normalize--------------------*/
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+  
+}
+
+/*--------------------Patrón del proyecto--------------------*/
+textarea:focus, input:focus {
+    box-shadow:0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+input::placeholder, textarea::placeholder{
+    
+    padding: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--azul-destaque);
+    font-weight: 800;
+}
+
+button{
+    cursor: pointer;
+}
+
+/*--------------------Header General--------------------*/
+
+
+
+nav{
+  
+  display: flex;
+  align-items: center;
+  padding-left: 10rem;
+}
+
+/*--------------------Divs del Header--------------------*/
+
+.logo-busqueda {
+  
+  width: 617px;
+  display: flex;
+  align-items: center;
+}
+
+    .logo{
+      
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img{
+      height: 30px;
+      width: 40px;
+     
+    }
+
+    .logo p{
+      font-size: 26px;
+      font-weight: bold;
+      color: var(--azul-destaque);
+    }
+
+    .logo .logo-azul{
+      margin-left: 10px;
+      color: grey;
+    }
+
+    .logo-busqueda ::placeholder { color:grey; }
+
+    .login{
+      width: 600px;
+       display: flex;
+       justify-content: end;
+       
+    }
+
+    .login button{
+      width: 180px;
+      background: none;
+      border: 0px solid var(--negro-destaque);
+      border-radius: 24px;
+      color: #2a7ae4;
+      font-size: 20px;
+      
+    }
+
+  
+/*--------------------Banner Promocional--------------------*/
+
+.destaque{
+  height: 17rem;
+  background-image: url(../assets/halo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 32px;
+  background-color: rgba(0, 0, 0, 0.20);
+  background-blend-mode: darken;
+}
+
+    .banner{
+      padding-left: 463px;
+      padding-top: 6rem;
+  
+    }
+
+    .banner h1{
+       color: var(--texto-destaque);
+       font-size: 52px;
+       font-weight: bold;
+    }
+
+    .banner h4{
+      color: var(--texto-destaque);
+      font-size: 22px;
+      font-weight: bold; 
+    }
+
+    .banner button{
+      background-color: rgba(0, 0, 0, 0.573);
+      border: none;
+      color: white;
+      height: 51px;
+      width: 130px;
+      border-radius:25px;
+      margin: 8rem 2rem 2rem 11rem;
+    }
+
+/*--------------------Sección de productos--------------------*/
+
+.geral-produs{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+/*-----------------Divs en la Sección de Productos-------------*/
+
+
+
+    .prod-titulos{
+          
+         display: flex;
+         justify-content: space-between;
+         padding-left: 6rem;
+         padding-right: 5rem;
+         color: #Eaf2fd;
+    }
+
+    .prod-titulos .titulo{
+      font-size: 32px;
+      font-weight: bold;
+      padding-left: 27rem;
+    }
+
+    .dos{
+      color: rgb(0, 0, 0);
+    }
+    
+    .seccion--productos{
+      height: 478px;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 66px;
+      margin-top: 37px;
+      padding-left: 3rem;
+      padding-right: 5rem;
+    }
+  
+   
+    .uno{
+      color: white;
+    }
+    
+
+
+/*--------------------Form Contacto--------------------*/
+
+.contactos{
+  background-image: url(../assets/assasins.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+    display: flex;
+    height: 365px;
+    justify-content: center;
+    padding: 75px 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-blend-mode: darken;
+   
+}
+
+    .referencias{
+        display: flex;
+        width: 350px;
+        margin: 20px 0 0 0;
+    }
+
+    .referencias img{
+        width: 60px;
+        height: 40px;
+    }
+
+    .referencias p{
+        font-size: 26px;
+        font-weight: bolder;
+        margin-top: 5px;
+        margin-left: 6px;
+    }
+
+    .links--utiles{
+      line-height: 40px;
+      width: 555px;
+      margin-right: 100px;
+     
+    }
+
+    .links--utiles a{
+        color: white;
+        font-weight: bold;
+
+    }
+
+    .form-{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 500px;
+    }
+    .form- ::placeholder { color:grey; }
+
+    .form- p{
+        font-weight: bolder;
+        color: white;
+    }
+
+    .form- input{
+        width: 475px;
+        position: relative;
+        height: 56px;
+        border: transparent;
+        margin-bottom: 20px;
+        box-sizing: content-box;
+        padding: 0.5% 2.7%;
+        color: var(--azul-destaque);
+        border-radius: 27px;
+        box-shadow: 4px 1px 20px #00000052;
+    
+    }
+
+    
+   
+    .label-nombre{
+        width: 100%;
+        position: absolute;
+        color: var(--input-placeholder);
+        top: 80px; left: 9px;
+        transition: 0.5s;                
+        }
+    
+        .input-nombre:focus + .label-nombre{
+        top: 64px;
+        font-size: 14px;
+        z-index: 2;
+        transition: 0.2s; 
+        color: var(--azul-destaque); 
+        }
+
+    .form- textarea{
+        width: 100%;
+        font-family: 'Relaway', sans-serif;
+        border: transparent;
+        color: var(--azul-destaque);
+        margin-bottom: 20px;
+        border-radius: 27px;
+        box-shadow: 4px 1px 20px #00000052;
+    
+    }
+
+    .form- button{
+      background-color:rgba(0, 0, 0, 0.553);
+        border: none;
+        color:white;
+        height: 51px;
+        width: 502px;
+        border-radius: 27px;
+    }

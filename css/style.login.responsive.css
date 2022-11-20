@@ -1,0 +1,123 @@
+@media (min-width: 320px) and (max-width: 740px) {
+
+    .nav {
+        
+        padding-left: 0rem;
+    }
+    .busqueda-login {
+        padding-left: 23%;
+    }
+    .inicio-sesion2 {
+        margin-left: 15%;
+      padding-left: 0px;
+        line-height: 2rem;
+        width: 100%;
+        margin-bottom: 0px;
+        height: 13rem;
+        
+    }
+    .container-login {
+   
+        flex-direction: column;
+    }
+    .inicio-sesion {
+  
+        width: 66%;
+  
+        height: 289px;
+
+    margin-bottom: 9%;
+
+      
+    }
+    .inicio-sesion h2 {
+       
+        font-size: 25px;
+    }
+    .inicio-sesion input {
+        margin-left: 0%;
+       
+    }
+    
+    
+}
+
+
+@media (min-width: 741px) and (max-width: 1024px) {
+
+    .inicio-sesion2 {
+       
+        width: 94%;
+        
+    }
+    .inicio-sesion2 .cambios {
+        width: 94%;
+    }
+    .cuerpo {
+       
+        width: 40rem;
+        height: 65rem;
+    }
+    .container-login {
+       
+        flex-wrap: wrap;
+        padding-left: 14rem;
+    }
+    .inicio-sesion {
+      
+        width: 73%;
+       margin-left: 0rem;
+        height: 289px;
+       
+    }
+    nav {
+        
+        padding-left: 7rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .container-login {
+    
+        padding-left: 0rem;
+        width: 74rem;
+        flex-direction: row;
+    }
+    .inicio-sesion h2 {
+        padding-left: 8%;
+        font-size: 27px;
+    }
+    .inicio-sesion input {
+        margin-left: 8%;
+        
+    }
+    .inicio-sesion button {
+    
+       
+        margin-top: 55px;
+        padding-left: 18%;
+       
+    }
+}
+
+@media (min-width: 1201px) {
+    .inicio-sesion h2 {
+      
+        font-size: 28px;
+    }
+    .inicio-sesion input {
+        margin-left: 7%;
+        
+    }
+    .inicio-sesion button {
+      
+        margin-top: 55px;
+        padding-left: 18%;
+       
+    }
+    nav {
+       
+        padding-left: 0rem;
+        margin-top: 1rem;
+    }
+}

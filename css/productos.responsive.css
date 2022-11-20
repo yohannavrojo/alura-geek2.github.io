@@ -1,0 +1,144 @@
+@media (min-width: 320px) and (max-width: 740px) {
+  .destaque {
+    height: 20rem;
+  }
+
+  nav {
+    padding-left: 0rem;
+  }
+  .respon {
+    padding-left: 0rem;
+  }
+  .rest {
+    padding-top: 0rem;
+    padding-right: -1rem;
+  }
+  .prod-titulos {
+    padding-left: 3rem;
+    padding-right: 5rem;
+  }
+  .prod-titulos .titulo {
+    padding-left: 1rem;
+  }
+  .seccion--productos {
+    padding-left: 0rem;
+  }
+  .form- button {
+    width: 11rem;
+  }
+
+  .contactos {
+    height: 34rem;
+    padding: 10px 0;
+    flex-wrap: wrap;
+  }
+  .referencias {
+    display: flex;
+    width: 20rem;
+  }
+  .referencias img {
+    width: 47px;
+    height: 27px;
+  }
+  .referencias p {
+    font-size: 23px;
+  }
+
+  .form- {
+    width: 18rem;
+  }
+  .cambio {
+    padding-left: 3rem;
+  }
+  .form- input {
+    width: 184px;
+  }
+
+  .form- textarea {
+    width: 71%;
+  }
+}
+
+@media (min-width: 741px) and (max-width: 1024px) {
+  .prod-titulos .titulo {
+    font-size: 29px;
+
+    padding-left: 11rem;
+  }
+  .prod-titulos {
+    padding-left: 1rem;
+  }
+  .seccion--productos {
+    padding-left: 6rem;
+  }
+  .contactos {
+    height: 458px;
+    flex-wrap: wrap;
+  }
+  .links--utiles {
+    width: 10rem;
+    margin-right: 0px;
+  }
+
+  .destaque {
+    height: 14rem;
+  }
+  nav {
+    padding-left: 24rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .destaque {
+    height: 17rem;
+  }
+  .prod-titulos {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .prod-titulos .titulo {
+    padding-left: 18rem;
+  }
+  .links--utiles {
+    width: 11rem;
+  }
+  .form- {
+    width: 356px;
+  }
+  .form- input {
+    width: 21rem;
+  }
+  .form- button {
+    width: 318px;
+  }
+  .contactos {
+    height: 17rem;
+  }
+
+}
+@media (min-width: 1201px) {
+  .prod-titulos .titulo {
+   
+    padding-left: 31%;
+}
+.destaque {
+  height: 17rem;
+}
+.links--utiles {
+  width: 11rem;
+}
+.form- {
+  width: 356px;
+}
+.form- input {
+  width: 21rem;
+}
+.form- button {
+  width: 356px;
+}
+.contactos {
+  height: 17rem;
+}
+
+
+}

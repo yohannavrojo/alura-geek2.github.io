@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <script src="https://kit.fontawesome.com/d6e7edc09b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/style.responsive.css">
+   
+   
+    
+    <title>Alura Geek</title>
+</head>
+
+<body id="contenedor">
+    <header>
+        <section class="destaque">
+            <nav>
+                <div class="logo-busqueda">
+                    <div class="logo">
+                        <img src=".//assets/logo.png" alt="logo">
+                        <p class="logo-azul"  >Alura</p>
+                        <p>Geek</p>
+                    </div>
+                    
+
+                    <input i type="text" placeholder="Qué deseas buscar?">
+                </div>
+
+                <div class="login">
+                    <a id="loginBtn" href="login.html"><button type="submit"><i class="fa-regular fa-user fa-2x"></i></button></a>
+                </div>
+            </nav>
+
+
+            <div class="banner" id="banner">
+                <h1>Abril Promocional</h1>
+                <h4>Productos seleccionados con 33% de descuento</h4>
+                <button>Ver Consolas</button>
+            </div>
+        </section>
+    </header>
+    <section class="geral-prods">
+        <div class="prod-titulo">
+            <div class="titulo dos">
+                <p>Star Wars</p>
+            </div>
+            <div class="mostrar-mas dos">
+                <p>Ver Todo <img src=".//assets/Vector.png" alt="seta"></p>
+            </div>
+        </div>
+
+        <section class="seccion-productos" id="productos"  datos-productos> </section>
+
+        <div class="prod-fondo-consola">
+            <div class="prod-titulo">
+                <div class="titulo">
+                    <p>Consolas</p>
+                </div>
+                <div class="mostrar-mas">
+                    <p>Ver Todo <img src=".//assets/Vector.png" alt="seta"></p>
+                </div>
+            </div>
+
+            <section class="seccion-productos uno" id="consola"  datos-consola></section>
+        </div>
+
+
+        <div class="prod-titulo">
+            <div class="titulo dos">
+                <p>Diversos</p>
+            </div>
+            <div class="mostrar-mas dos">
+                <p>Ver Todo <img src="assets\Vector.png" alt="seta"></p>
+            </div>
+        </div>
+
+        <section class="seccion-productos " id="diversos" datos-diversos>
+            <!-- <div class="prod-holder">
+                <div class="produto dos">
+                    <img src="assets\atari.png" alt="atari">
+                    <p class="descrição">Camiseta Atari</p>
+                    <p class="preco">60,00</p>
+                    <a href="">Ver Producto</a>
+                </div>
+            </div> -->
+          
+        </section>
+    </section>
+
+    <section class="contacto">
+        <div class="referencia">
+            <img src="assets\logo.png" alt="logo">
+            <p style="color: grey;">Alura</p>
+            <p style="color:#2a7ae4;">Geek</p>
+        </div>
+
+        <div class="links-utiles">
+            <a href="">Quienes somos</a> <br>
+            <a href="">Programa de fidelidad</a> <br>
+            <a href="">Nuetras Tiendas</a> <br>
+            <a href="">Quiero ser franquiciado</a> <br>
+            
+        </div>
+
+        <div class="form" class="">
+            <p class="">Hable con nosotros</p>
+            
+            <div class="label-float" data-form-contacto>
+                <input type="text" name="Nome" id="Nome" class="input-nombre" placeholder="Nombre" minlength="1" maxlength="40" data-form-contacto-name>
+
+            </div>
+           
+            <textarea name="mensagem" id="msg" cols="5" rows="5" placeholder="Mensaje " minlength="1" maxlength="120" data-form-contacto-mensaje></textarea>
+            <button>Enviar Mensaje</button>
+        </div>
+    </section>
+    
+    <script src="./controllers/productos-controllers.js" type="module"></script>
+    <script src="./controllers/consola-controllers.js" type="module"></script>
+    <script src="./controllers/diversos-controllers.js" type="module"></script>
+</body>
+
+
+</html>

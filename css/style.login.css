@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+.cuerpo{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+    background-image: url(../assets/yodabebe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.busqueda-login {
+    padding-left: 35%;
+}
+
+.container-login{
+    display: flex;
+}
+.inicio-sesion {
+    margin-top: 5%;
+    background-color: rgb(255 255 255 / 33%);
+    background-blend-mode: darken;
+    width: 19%;
+    margin-left: 15%;
+    height: 289px;
+    padding: 5%;
+    margin-bottom: 5%;
+    border-radius: 25px;
+}
+.inicio-sesion h2 {
+  padding-left: 6%;
+  font-size: 35px;
+}
+.inicio-sesion2  .cambios{
+    font-size: 25px;
+    font-weight: bold;
+   
+}
+
+.inicio-sesion input {
+  margin-left: 18%;
+  margin-top: 30px;
+  padding-top: 1rem;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.33);
+  background-blend-mode: darken;
+  border: none;
+  
+}
+.inicio-sesion ::placeholder { color:rgb(50, 48, 48); }
+
+.inicio-sesion input:hover{
+    box-shadow: 8px 9px 10px 0px rgba(0, 0, 0, 0.425);
+}
+.inicio-sesion button {
+    display: flex;
+    flex-direction: column;
+    margin-left: 28%;
+    margin-top: 55px;
+    padding-left: 14%;
+    width: 120px;
+    height: 40px;
+    padding-top: 3.8%;
+    border-radius: 27px;
+    background-color:  #272525;;
+    color: white;
+    border: none;
+}
+
+
+.inicio-sesion2{
+    width: 19%;
+    margin-left: 15%;
+    height: 289px;
+    padding-top: 9%;
+    margin-bottom: 5%;
+    border-radius: 25px;
+    color: white;
+    line-height: 4rem;
+    padding-left: 2%;
+}
+
